@@ -1,32 +1,13 @@
-## OVERTAKE_data
+# OVERTAKE_data
 
-------
+## Overview
 
-### Overview
+Our dataset contains about fifteen hours of driving data including **easy mode**, **medium mode**, **hard mode**, and we record data and motion commands at 10 frames per second. The labeling contains steering angle, accelerator and brake.
 
-------
+## About data
 
-- Our dataset contains about fifteen hours of driving data including easy_mode, medium_mode, hard_mode, and we record data and motion commands at 10 frames per second. The labeling contains steering angle, accelerator and brake.
-- About data: Each file contains a relative number of rounds. It is noted that a round means a process from the starting point to the end point, and it is relatively easy to understand after that. The first four data denote the coordinates of X and Y,  the speed values along the X and Y directions, repsectively. The last senven data are the accelerator and brake values, the steering angle of the ego-vehicle,  the distances from the center of the ego-vehicle to the left and right lane lines of the current lane,  the distances from the center of the ego-vehicle to the left and right road boundaries, repsectively.
+The dataset is divided into 3 folders according to difficulty, e.g., easy, mdium and hard. Dataset of same difficulty is divided into 5 csv files according to episode. Every difficulty level of dataset contains nearly 1300 episodes, and they are divided into separate csv files every 300 episodes. An episode means a process from the starting point to the end point. In each csv file, there are 29 columns and many number of rows which stands for a frame sampled. The first 2 columns is the episode and frame number. Note that an episode may contain different number of frames. The other 27 columns is the vhehicles' data. The first four data denote the coordinates of X and Y,  the speed values along the X and Y directions, repsectively. The last senven data are the accelerator and brake values, the steering angle of the ego-vehicle,  the distances from the center of the ego-vehicle to the left and right lane lines of the current lane,  the distances from the center of the ego-vehicle to the left and right road boundaries, repsectively. 
 
-
-
-### Sample Data
-
------- 
-
-#### easy_mode 
-
-<img src="E:\wendang\data_2\Sample_png\simple_mode.png" style="zoom:75%;" />
-
-
-
-#### medium_mode
-
-<img src="E:\wendang\data_2\Sample_png\medium_mode.png" style="zoom:75%;" />
-
-
-
-#### hard_mode
-
-<img src="E:\wendang\data_2\Sample_png\hard_mode.png" style="zoom:75%;" />
+## Overtaking example
+This is an example of ego vehicle overtaking other vehicle:
+<img src="overtake.gif"/>
