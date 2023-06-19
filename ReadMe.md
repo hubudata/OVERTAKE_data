@@ -10,7 +10,7 @@ The dataset is divided into 3 folders according to task difficulty, i.e., easy, 
 
 In each csv file, there are **29 columns** and many number of **rows**, and a row of data are sampled within one single **frame**. The first 2 columns is the episode and frame indices. That is, frames sampled in the same episode have a same episode index, and every epiode in the same difficulty of dataset has a unique episode index. Note that episodes may contain different number of frames.
 
-The other 27 columns is the vehicles' kinematic and command data, and can be further divided into four part. The first and second part denotes the X- and Y-Axis **coordinates and speed values** of ego-vehicle and other sorrounding vehicles. The third part three columns of data stands for the **accelerator**, **braking** values and the **steering** angle of the ego-vehicle. Finally, the last part contains **distances** from the center of ego-vehicle to the left and right lane lines of the current lane and the road boundaries, respectively.
+The other 27 columns are the vehicles' kinematic and command data, and can be further divided into four part. The first and second part denotes the X- and Y-Axis **coordinates and speed values** of ego-vehicle and other sorrounding vehicles. The third part three columns of data stands for the **accelerator**, **braking** values and the **steering** angle of the ego-vehicle. Finally, the last part contains **distances** from the center of ego-vehicle to the left and right lane lines of the current lane and the road boundaries, respectively.
 
 All data columns and their detailed meanings are listed below.
 
