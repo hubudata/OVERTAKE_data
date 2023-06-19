@@ -50,7 +50,7 @@ All data columns and their detailed meanings are listed below.
 
 ### Dataset example
 
-This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have columns names and each column name indicates the meanning of that column of data.
+This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have column names which indicate the meanning of each column metioned before.
 
 |      | vx_other_1 | vx_other_2 | vx_other_3 | vx_other_4 | vy_ego    | vy_other_1 | vy_other_2 | vy_other_3 | vy_other_4 | throttle   | braking    | steering   | d_left_1      | d_right_1 | d_left_2  | d_right_2     |
 | ---- | ---------- | ---------- | ---------- | ---------- | --------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------- | --------- | --------- | ------------- | --------- | --------- | --------- | --------- | --------- | --------- | --- | --- | --------- | -------- | -------- | -------- | -------- |
@@ -64,7 +64,6 @@ This is an example of the top 10 rows in one cvs file. Note that the first colum
 | 7    | 0          | 7          | -1.377786  | 43.080692  | 37.518425 | -21.240913 | -33.791897 | 207.398987 | 207.399582 | 204.200348 | 204.099854 | 203.800171 | -1.858471e-05 | -0.000087 | -0.000056 | -4.138955e-05 | -0.000123 | 0.002229  | 0.000157  | 0.000058  | -0.000028 | -0.000093 | 0.7 | 0.0 | 0.002111  | 1.598987 | 1.901013 | 5.098987 | 1.901013 |
 | 8    | 0          | 8          | -1.377783  | 43.080692  | 37.518433 | -21.240925 | -33.791950 | 207.398804 | 207.399567 | 204.200363 | 204.099838 | 203.800125 | -6.908410e-06 | -0.000036 | -0.000022 | -1.640508e-05 | -0.000049 | 0.000196  | -0.000004 | 0.000030  | -0.000041 | -0.000040 | 0.7 | 0.0 | 0.002621  | 1.598804 | 1.901196 | 5.098804 | 1.901196 |
 | 9    | 0          | 9          | -1.377782  | 43.080692  | 37.518433 | -21.240932 | -33.791965 | 207.398743 | 207.399567 | 204.200363 | 204.099823 | 203.800095 | -2.370085e-06 | -0.000020 | -0.000013 | -6.677407e-06 | -0.000017 | 0.000040  | -0.000002 | 0.000012  | -0.000017 | -0.000039 | 0.7 | 0.0 | 0.002692  | 1.598743 | 1.901257 | 5.098743 | 1.901257 |
-
 
 
 ### Overtaking example
