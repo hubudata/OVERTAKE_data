@@ -2,15 +2,15 @@
 
 ## Overview
 
-Our dataset contains about fifteen hours of driving data including **easy mode**, **medium mode**, **hard mode**, and we record data and motion commands at 10 frames per second. The labeling contains steering angle, accelerator and brake.
+Our dataset contains about fifteen hours of driving data, including **easy mode**, **medium mode** and **hard mode**. We record data and motion commands at 10 frames per second. The labeling contains steering angle, accelerator and brake.
 
 ## About the data
 
-The dataset is divided into 3 folders according to task difficulty, i.e., easy, mdium and hard. Data of same difficulty is further divided into 5 csv files according to episode, and an episode means a process from the starting point to the end point. One single csv file contains a maximum of 300 episodes, and one single difficulty of dataset contains nearly 1300 episodes. Note that the name of each csv file also incates the index range of episoded.
+The dataset is divided into 3 folders according to task difficulty, i.e., easy, mdium and hard. Each difficulty of data is further divided into 5 csv files according to **episode**, and an episode means a process from the starting point to the end point. One single csv file contains a maximum of 300 episodes, and one difficulty of data contains nearly 1300 episodes, so there are 5 csv files in each diffculty data folder. Note that the name of csv file also incates the index range of episodes.
 
-In each csv file, there are 29 columns and many number of rows, and a row of data are sampled within one single frame. The first 2 columns is the episode and frame indices. That is, frames sampled in the same episode have a same episode index, and every epiode in the same difficulty of dataset has a unique episode index. Note that episodes may contain different number of frames.
+In each csv file, there are **29 columns** and many number of **rows**, and a row of data are sampled within one single **frame**. The first 2 columns is the episode and frame indices. That is, frames sampled in the same episode have a same episode index, and every epiode in the same difficulty of dataset has a unique episode index. Note that episodes may contain different number of frames.
 
-The other 27 columns is the vehicles' kinematic and command data, and can be further divided into four part. The first and second part denotes the X- and Y-Axis coordinates and speed values of ego-vehicle and other sorrounding vehicles. The third part three columns of data stands for the accelerator, braking values and the steering angle of the ego-vehicle. Finally, the last part contains distances from the center of ego-vehicle to the left and right lane lines of the current lane and the road boundaries, respectively.
+The other 27 columns is the vehicles' kinematic and command data, and can be further divided into four part. The first and second part denotes the X- and Y-Axis **coordinates and speed values** of ego-vehicle and other sorrounding vehicles. The third part three columns of data stands for the **accelerator**, **braking** values and the **steering** angle of the ego-vehicle. Finally, the last part contains **distances** from the center of ego-vehicle to the left and right lane lines of the current lane and the road boundaries, respectively.
 
 All data columns and their detailed meanings are listed below.
 
