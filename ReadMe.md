@@ -50,7 +50,7 @@ All data columns and their detailed meanings are listed below.
 
 ### Dataset example
 
-This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have columns names and each column name indicates the meanning of that column of data.
+This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have column names which indicate the meanning of each column metioned before.
 |      | episode | frame | x_ego     | x_other_1 | x_other_2 | x_other_3  | x_other_4  | y_ego      | y_other_1  | y_other_2  | y_other_3  | y_other_4  | vx_ego        | vx_other_1 | vx_other_2 | vx_other_3    | vx_other_4 | vy_ego    | vy_other_1 | vy_other_2 | vy_other_3 | vy_other_4 | throttle | braking | steering  | d_left_1 | d_right_1 | d_left_2 |
 | ---- | ------- | ----- | --------- | --------- | --------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------- | ---------- | ---------- | ------------- | ---------- | --------- | ---------- | ---------- | ---------- | ---------- | -------- | ------- | --------- | -------- | --------- | -------- |
 | 0    | 0       | 0     | -1.378816 | 43.075848 | 37.514030 | -21.242659 | -33.793720 | 207.399994 | 207.399994 | 204.199997 | 204.099991 | 203.800003 | 0.000000e+00  | 0.000000   | 0.000000   | 0.000000e+00  | 0.000000   | 0.000000  | 0.000000   | 0.000000   | 0.000000   | 0.000000   | 0.0      | 0.0     | 0.000000  | 1.599994 | 1.900006  | 5.099994 |
