@@ -10,7 +10,7 @@ Our dataset contains about fifteen hours of driving data, including **easy mode*
 The dataset is divided into 3 folders according to task difficulty, i.e., easy, mdium and hard mode. Each difficulty mode of data is further divided into 5 csv files according to **episode**. An episode means a process from the starting point to the end point. Each csv file contains a maximum of 300 episodes. As each difficulty mode of data contains nearly 1300 episodes, so there are 5 csv files in each folder. Note that the name of csv file also incates the index range of episodes.
 
 ### Episode contains frames
-In each csv file, there are **29 columns** and many number of **rows**. A row contains data sampled within one single **frame**. The first column is the episode index. Frames sampled in the same episode have a same episode index. The second column is frame index, indicating the sequence of frames in every epiode. Epidode indices increase in ascending order in each difficulty of dataset. Note that episodes may contain different number of frames.
+In each csv file, there are many number of **rows**. A row contains data that are sampled within one single **frame** and organized into **29 columns**. The first column is the **episode index**. Epidode indices increase in ascending order in each difficulty of dataset. Frames sampled in the same episode have the same episode index. The second column is **frame index**, indicating the sequence of frames in one epiode.  Note that episodes may contain different number of frames.
 
 ### Frames are row of data organized in columns
 The other 27 columns are the vehicles' kinematics and command data, and can be further divided into four part. The first and second part denotes the X- and Y-Axis **coordinates and speed values** of ego-vehicle and other sorrounding vehicles, respectively. The third part's three columns of data stands for the **accelerator**, **braking** values and the **steering** angle of the ego-vehicle. Finally, the last part contains **distances** from the center of ego-vehicle to the left and right lane lines of the current lane and the road boundaries, respectively.
@@ -53,7 +53,7 @@ All data columns and their detailed meanings are listed below.
 
 ### Dataset example
 
-This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have column names which indicate the meanning of each column data as metioned before.
+This is an example of the top 10 rows in one cvs file. Note that the first column is the row indices and has no column name. The other 29 columns all have column names and meannings as metioned before.
 
 |      | episode | frame | x_ego     | x_other_1 | x_other_2 | x_other_3  | x_other_4  | y_ego      | y_other_1  | y_other_2  | y_other_3  | y_other_4  | vx_ego        | vx_other_1 | vx_other_2 | vx_other_3    | vx_other_4 | vy_ego    | vy_other_1 | vy_other_2 | vy_other_3 | vy_other_4 | throttle | braking | steering  | d_left_1 | d_right_1 | d_left_2 | d_right_2 |
 | ---- | ------- | ----- | --------- | --------- | --------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------------- | ---------- | ---------- | ------------- | ---------- | --------- | ---------- | ---------- | ---------- | ---------- | -------- | ------- | --------- | -------- | --------- | -------- | --------- |
